@@ -5,11 +5,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  say-hello:
-    name: Print Hello World
-    runs-on: ubuntu-latest
+  say-hello:
+    name: Print Hello World
+    runs-on: ubuntu-latest
 
-    steps:
+    steps:
       - name: Say Hello
         run: echo "Hello World"
-     
